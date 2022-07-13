@@ -53,8 +53,23 @@ export const projectsData = [
     code: "https://github.com/deepakdk0808/home2go-FRONTENDapi",
     demo: "https://home2go-frontend-api.vercel.app/",
     image:"https://i.postimg.cc/rFNBVK96/hometogo.png"
-     // "https://raw.githubusercontent.com/Renukote/clone-rodanandfields.com/master/rodan-and-fields-thumbnail.png",
   },
+  {
+    id: 4,
+    projectName: "Zara.com clone",
+    projectDesc: [
+      "Clone of Zara.com ,An e-commerce website to shop clothes for men,women and kids",
+      [
+        "Built Cart page",
+        "Bulit athletics products section",
+      ],
+    ],
+    tags: ["html", "css", "javascript"],
+    code: "https://github.com/yashrajillusion/zara",
+    demo: "https://zara-vert.vercel.app/",
+    image:"https://user-images.githubusercontent.com/76251688/178629772-04dd7787-323e-4f84-8046-78fba78dc2c5.png"
+  },
+
 ];
 
 // Do not remove any fields.

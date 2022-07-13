@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
 // import axios from "axios";
+// eslint-disable-next-line
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -34,7 +35,9 @@ function Contacts() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  // eslint-disable-next-line
   const [success, setSuccess] = useState(false);
+  // eslint-disable-next-line
   const [errMsg, setErrMsg] = useState("");
 
   const { theme } = useContext(ThemeContext);

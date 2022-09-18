@@ -1,12 +1,5 @@
-// import one from "../assets/svg/projects/one.svg";
-// import two from "../assets/svg/projects/two.svg";
-// import three from "../assets/svg/projects/three.svg";
-// import four from "../assets/svg/projects/four.svg";
-// import five from "../assets/svg/projects/five.svg";
-// import six from "../assets/svg/projects/six.svg";
-// import seven from "../assets/svg/projects/seven.svg";
-// import eight from "../assets/svg/projects/eight.svg";
-// import udemy from "../assets/png/udemy2.jpeg";
+import TodoImage from "../assets/png/todo-app.png"
+import ZaraImage from "../assets/png/zara.png"
 
 export const projectsData = [
   {
@@ -67,7 +60,23 @@ export const projectsData = [
     tags: ["html", "css", "javascript"],
     code: "https://github.com/yashrajillusion/zara",
     demo: "https://zara-vert.vercel.app/",
-    image:"https://user-images.githubusercontent.com/76251688/178629772-04dd7787-323e-4f84-8046-78fba78dc2c5.png"
+    image:ZaraImage
+  },
+   {
+    id: 5,
+    projectName: "Todo App",
+    projectDesc: [
+      "A Todo Web App with CRUD methods implemented",
+      [
+        "Implemented CRUD methods",
+        "Lazy loading components",
+        "Responsive web pages",
+      ],
+    ],
+    tags: ["React", "tailwind", "javascript"],
+    code: "https://github.com/yashrajillusion/zara",
+    demo: "https://todo-app-orcin-kappa-30.vercel.app/",
+    image:TodoImage
   },
 
 ];

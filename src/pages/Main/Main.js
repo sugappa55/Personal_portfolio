@@ -10,10 +10,10 @@ import {
   // Testimonials,
   Blog,
   Education,
-  // Experience,
+  Experience,
   Contacts,
   Projects,
-  // Services,
+  Services,
   // Achievement,
 } from "../../components";
 // import { headerData } from "../../data/headerData";
@@ -24,14 +24,14 @@ function Main() {
       <Navbar />
       <Landing />
       <About />
+      <Experience />
       <Skills />
-      {/* <Services /> */}
+      <Services />
       <Education />
       <Projects />
       <Blog />
       <Contacts />
       <Footer />
-      {/* <Experience /> */}
       {/* <Achievement /> */}
       {/* <Testimonials /> */}
     </div>

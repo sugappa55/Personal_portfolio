@@ -96,7 +96,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               Roles and responsibilities:
               <ul style={{ margin: "5px 0px" }}>
                 {desc[1].map((role, id) => {
-                  return <li>{role}</li>;
+                  return <li key={id}>{role}</li>;
                 })}
               </ul>
             </span>
@@ -111,6 +111,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
         >
           {tags.map((tag, id) => (
             <img
+              key={id}
               src={skillsImage(tag)}
               alt={tag}
               style={{ width: "40px", height: "20px" }}

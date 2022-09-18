@@ -8,6 +8,7 @@ import { FaUser, FaFolderOpen } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CloseIcon from "@material-ui/icons/Close";
+import {BsFillGearFill} from "react-icons/bs"
 
 import "./Navbar.css";
 import { headerData } from "../../data/headerData";
@@ -206,7 +207,7 @@ function Navbar() {
                 </div>
               </NavLink>
             </Fade>
-            {/* 
+            
             <Fade left>
               <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
@@ -214,7 +215,7 @@ function Navbar() {
                   <span className={classes.drawerLinks}>Services</span>
                 </div>
               </NavLink>
-            </Fade> */}
+            </Fade>
 
             <Fade left>
               <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>
